@@ -1,4 +1,4 @@
-Documentation  TestCase to Verify Admin Password Update on SuperWiFi2
+Documentation  TestCase to Open Calculator
 
 
 ***Settings***
@@ -17,3 +17,4 @@ Calculations
     click element  com.android.bbkcalculator:id/plus
     click element  com.android.bbkcalculator:id/digit3
     click element  com.android.bbkcalculator:id/equal
+    Element Should Contain Text  //android.widget.EditText[@content-desc="5"]  5
